@@ -55,10 +55,10 @@ int main() {
     scanf("%d", &populacao1);
 
     printf("Digite a área (em km²): ");
-    scanf("%f", &area1);
+    scanf("%.2f", &area1);
 
-    printf("Digite o PIB (em bilhões de reais): ");
-    scanf("%f", &pib1);
+    printf("Digite o pib (em bilhões de reais): ");
+    scanf("%.2f", &pib1);
 
     printf("Digite o número de pontos turísticos: ");
     scanf("%d", &pontosTuristicos1);
@@ -82,7 +82,7 @@ int main() {
     printf("Digite a área (em km²): ");
     scanf("%f", &area2);
 
-    printf("Digite o PIB (em bilhões de reais): ");
+    printf("Digite o pib (em bilhões de reais): ");
     scanf("%f", &pib2);
 
     printf("Digite o número de pontos turísticos: ");
