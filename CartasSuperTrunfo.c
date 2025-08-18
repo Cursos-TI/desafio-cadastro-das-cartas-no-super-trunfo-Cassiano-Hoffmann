@@ -51,8 +51,6 @@ int main() {
 
     // Entrada de dados para a Carta 1
 
-    printf("=== Cadastro da Carta 1 ===\n");
-
     printf("Digite o estado da Carta 1: ");
     scanf("%c", &estado1);
 
@@ -66,19 +64,17 @@ int main() {
     scanf("%lu", &populacao1);
 
     printf("Digite a area da Carta 1 (em km²): ");
-    scanf("%.2f", &area1);
+    scanf("%f", &area1);
 
     printf("Digite o PIB da Carta 1 (em bilhões de reais): ");
-    scanf("%.2f", &pib1);
+    scanf("%f", &pib1);
 
     printf("Digite o número de pontos turisticos da Carta 1: ");
     scanf("%d", &pontosTuristicos1);
 
     // Entrada de dados para a carta 2
 
-    printf("\n=== Cadastro da Carta 2 ===\n");
-
-    printf("Digite o estado da Carta 2: ");
+    printf("\nDigite o estado da Carta 2: ");
     scanf(" %c", &estado2);
 
     printf("Digite o código da carta Carta 2: ");
@@ -114,7 +110,7 @@ int main() {
 
     //Exibição dos dados da carta 2
 
-    printf("Estado: %c\n", estado2);
+    printf("\nEstado: %c\n", estado2);
     printf("Código: %s\n", codigo2);
     printf("Nome da cidade: %s\n", nomeCidade2);
     printf("População: %d\n", populacao2);
